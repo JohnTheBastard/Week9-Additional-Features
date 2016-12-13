@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		F24AADD61DFF147000D89FCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F24AADD21DFF147000D89FCF /* LaunchScreen.storyboard */; };
 		F24AADD71DFF147000D89FCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F24AADD41DFF147000D89FCF /* Main.storyboard */; };
-		F24AADDA1DFF147F00D89FCF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F24AADD91DFF147F00D89FCF /* ViewController.m */; };
 		F24AADDE1DFF149100D89FCF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F24AADDC1DFF149100D89FCF /* AppDelegate.m */; };
 		F24AADDF1DFF149100D89FCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F24AADDD1DFF149100D89FCF /* main.m */; };
 		F24AADE11DFF14B700D89FCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F24AADE01DFF14B700D89FCF /* Assets.xcassets */; };
+		F24AADE41DFF20B000D89FCF /* BurgerMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F24AADE31DFF20B000D89FCF /* BurgerMenuViewController.m */; };
+		F26297CC1E00704F0054089E /* WebViewOAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F26297CB1E00704F0054089E /* WebViewOAuthViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +21,14 @@
 		F24AADC91DFF132C00D89FCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F24AADD31DFF147000D89FCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Views/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F24AADD51DFF147000D89FCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Views/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F24AADD81DFF147F00D89FCF /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Controllers/ViewController.h; sourceTree = "<group>"; };
-		F24AADD91DFF147F00D89FCF /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Controllers/ViewController.m; sourceTree = "<group>"; };
 		F24AADDB1DFF149100D89FCF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "Supporting Files/AppDelegate.h"; sourceTree = "<group>"; };
 		F24AADDC1DFF149100D89FCF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "Supporting Files/AppDelegate.m"; sourceTree = "<group>"; };
 		F24AADDD1DFF149100D89FCF /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Supporting Files/main.m"; sourceTree = "<group>"; };
 		F24AADE01DFF14B700D89FCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Views/Assets.xcassets; sourceTree = "<group>"; };
+		F24AADE21DFF20B000D89FCF /* BurgerMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BurgerMenuViewController.h; path = Controllers/BurgerMenuViewController.h; sourceTree = "<group>"; };
+		F24AADE31DFF20B000D89FCF /* BurgerMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BurgerMenuViewController.m; path = Controllers/BurgerMenuViewController.m; sourceTree = "<group>"; };
+		F26297CA1E00704F0054089E /* WebViewOAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebViewOAuthViewController.h; path = Controllers/WebViewOAuthViewController.h; sourceTree = "<group>"; };
+		F26297CB1E00704F0054089E /* WebViewOAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebViewOAuthViewController.m; path = Controllers/WebViewOAuthViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +100,10 @@
 		F24AADD11DFF13E400D89FCF /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				F24AADD81DFF147F00D89FCF /* ViewController.h */,
-				F24AADD91DFF147F00D89FCF /* ViewController.m */,
+				F24AADE21DFF20B000D89FCF /* BurgerMenuViewController.h */,
+				F24AADE31DFF20B000D89FCF /* BurgerMenuViewController.m */,
+				F26297CA1E00704F0054089E /* WebViewOAuthViewController.h */,
+				F26297CB1E00704F0054089E /* WebViewOAuthViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -175,9 +180,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F26297CC1E00704F0054089E /* WebViewOAuthViewController.m in Sources */,
 				F24AADDF1DFF149100D89FCF /* main.m in Sources */,
+				F24AADE41DFF20B000D89FCF /* BurgerMenuViewController.m in Sources */,
 				F24AADDE1DFF149100D89FCF /* AppDelegate.m in Sources */,
-				F24AADDA1DFF147F00D89FCF /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +342,7 @@
 				F24AADCE1DFF132C00D89FCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
